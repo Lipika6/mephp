@@ -1,0 +1,62 @@
+*{ 
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(198, 172, 243);
+    padding:30px;
+    margin: auto;
+}
+.container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+  
+
+}
+p{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.submitmsg{
+    font-size: 17px;
+    color: rgb(28, 189, 28);
+    font-weight: bold;
+}
+input, textarea{
+    display: block;
+    border: 2px, solid, rgb(215, 213, 213);
+    border-radius: 3px;
+    outline: none;
+    font-size: medium;
+    width:70%;
+    padding: 8px;
+    margin:6px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color:white;
+    background:rgb(177, 31, 118);
+    font-size: 20px;
+    padding:11px;
+    border: 2px, solid,rgb(177, 31, 118);
+    border-radius: 8px;
+    outline: none;
+    margin-top: 10px;
+    width: 20%;
+    cursor: pointer;
+
+}
